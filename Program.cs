@@ -97,5 +97,74 @@ internal class Program
         long ortalamaOlm = olmToplam/olmayanUzunluk;
     
         Console.WriteLine("asal Olmayanlar ortalaması=" + ortalamaOlm);
+
+
+////////////
+        Console.WriteLine("20 tane pozitif sayı giriniz");
+        ArrayList sayilar = new ArrayList();
+        for(int f = 0; f<20 ; f++)
+        {
+            Console.WriteLine(f+1 +". sayıyı Giriniz");
+            sayilar.Add(int.Parse(Console.ReadLine()));
+        }
+
+        sayilar.Sort();
+
+        int[] buyukler = new int[3];
+        for (int m = 0; m < 3; m++)
+        {
+            buyukler[m]=(int)sayilar[m];
+        }
+        int u = sayilar.Count;
+        int[] kucukler = new int[3];
+        for( int n = 0; n < 3; n++)
+        {
+            kucukler[n]=(int)sayilar[--u];
+        }
+
+       int buyukToplam = 0;
+        for(int b =0 ; b <buyukler.Length ; b++ )
+        {
+            buyukToplam+=buyukler[b];
+        }
+
+        int kucukToplam = 0;
+        for(int a =0; a<kucukler.Length;a++)
+        {
+            kucukToplam+=kucukler[a];
+        }
+        int ortBuyuk = buyukToplam/buyukler.Length;
+        int ortKucuk = kucukToplam/kucukler.Length;
+        Console.WriteLine("büyük sayıların ortalaması" + ortBuyuk);
+        Console.WriteLine("küçük sayıların ortalaması" +ortKucuk);
+        Console.WriteLine("ortalama toplamları" + ortBuyuk+ortKucuk);
+
+/////////////////
+         Console.WriteLine("lütfen bir cümle giriniz");
+         string cumle = Console.ReadLine();
+         string  sesli="aeıioöuü";
+         ArrayList sesliHarfler = new ArrayList();
+
+         for(int c =0; c < cumle.Length; c++)
+         {
+            if(sesli.Contains(cumle[c]))
+            {
+                sesliHarfler.Add(cumle[c]);
+            }
+         }
+
+         foreach (var item in sesliHarfler)
+         {
+            Console.WriteLine(item);
+         }
     }
 }   
+
+//Klavyeden girilen 20 adet sayının 
+//en büyük 3 tanesi ve en küçük 3 tanesi bulan, 
+//her iki grubun kendi içerisinde ortalamalarını alan 
+//ve bu ortalamaları ve ortalama toplamlarını console'a yazdıran programı yazınız. (Array sınıfını kullanarak yazınız.)
+
+//Klavyeden girilen cümle içerisindeki 
+//sesli harfleri bir dizi içerisinde saklayan 
+//ve dizinin elemanlarını sıralayan programı yazınız.

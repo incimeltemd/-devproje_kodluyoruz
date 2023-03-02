@@ -1,0 +1,15 @@
+C:\Users\casper\Desktop\odevproje\bin\Debug\net7.0\ödev2kod.exe
+C:\Users\casper\Desktop\odevproje\bin\Debug\net7.0\ödev2kod.deps.json
+C:\Users\casper\Desktop\odevproje\bin\Debug\net7.0\ödev2kod.runtimeconfig.json
+C:\Users\casper\Desktop\odevproje\bin\Debug\net7.0\ödev2kod.dll
+C:\Users\casper\Desktop\odevproje\bin\Debug\net7.0\ödev2kod.pdb
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ödev2kod.csproj.AssemblyReference.cache
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ödev2kod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ödev2kod.AssemblyInfoInputs.cache
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ödev2kod.AssemblyInfo.cs
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ödev2kod.csproj.CoreCompileInputs.cache
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ödev2kod.dll
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\refint\ödev2kod.dll
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ödev2kod.pdb
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ödev2kod.genruntimeconfig.cache
+C:\Users\casper\Desktop\odevproje\obj\Debug\net7.0\ref\ödev2kod.dll
